@@ -79,6 +79,7 @@ function init()
     document.querySelector('.player-0').classList.add('active');
     document.querySelector('.roll-dice').style.display='block';
     document.querySelector('.hold').style.display='block';
+    document.querySelector('.input-value').style.display='block';
     document.querySelector('.input-value').value='';
 }
 
