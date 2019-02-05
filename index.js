@@ -50,6 +50,7 @@ if(scores[activePlayer]>=winningScore)
     document.querySelector('.dice').style.display='none';
     document.querySelector('.roll-dice').style.display='none';
     document.querySelector('.hold').style.display='none';
+    document.querySelector('.input-value').style.display='none';
 }
 else{
     nextPlayer();
