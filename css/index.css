@@ -108,6 +108,20 @@ height: 488px;
 }
 
 
+@media only screen and (max-width:480px){
+
+.container{
+width: 400px;
+height: 500px;
+
+}
+
+
+
+
+}
+
+
 .player-0,.player-1{
     width: 50%;
     float: left;
@@ -129,6 +143,7 @@ height: 488px;
     text-transform: uppercase;
 }
 
+
 .player-score{
     padding: 5px;
     text-align: center;
@@ -148,6 +163,7 @@ color: aliceblue;
     text-transform: uppercase;
     border-radius: 10px;
 }
+
 
 @media only screen and (max-width:720px){
 .player-score{
@@ -190,6 +206,16 @@ left: 45%;
     color: aliceblue;
 }
 
+
+@media only screen and (max-width: 480px){
+
+
+.new-game{
+transform: translateY(410px);
+ font-size: 100%;
+}
+}
+
 .roll-dice{
 
     padding: 10px;
@@ -230,6 +256,16 @@ color: rgb(0, 0, 0);
     left: 46%;
     width: 60px;
     border-radius: 10px;
+}
+
+
+@media only screen and (max-width: 480px){
+
+.dice{
+
+top: 25%;
+}
+
 }
 
 @media only screen and (max-width:720px){
