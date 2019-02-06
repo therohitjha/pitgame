@@ -1,3 +1,12 @@
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: therohitjha
+    Description: This is a Simple Contact Form
+    Author: Rohit Jha
+-----------------------------------------------------------------------------------
+ */
+
+
 footer{
     text-align: center;
     padding: 5px;
@@ -108,29 +117,6 @@ height: 488px;
 }
 
 
-@media only screen and (max-width:480px){
-
-.container{
-width: 400px;
-height: 500px;
-
-}
-
-}
-
-
-
-@media (max-width: 360px){
-
-.container{
-width: 320px;
-height: 400px;
-
-}
-
-}
-
-
 .player-0,.player-1{
     width: 50%;
     float: left;
@@ -203,21 +189,6 @@ top: 0;
 left: 45%;
 }
 
-@media screen only and (min-width: 320px),(max-width: 360px){
-.player-current-box{
-width: 50%;
-margin-left: auto;
-margin-right: auto;
-}
-
-.btn-container{
-font-size: 65%;
-margin-left: -1.2%;
-}
-
-}
-
-
 .new-game{
 
     padding: 10px;
@@ -230,20 +201,6 @@ margin-left: -1.2%;
     color: aliceblue;
 }
 
-
-@media (max-width: 480px){
-
-.btn-container{
-font-size: 85%;
-transform: translateX(10px);
-}
-
-
-.new-game{
-transform: translateY(30px);
- font-size: 100%;
-}
-}
 
 .roll-dice{
 
@@ -285,44 +242,6 @@ color: rgb(0, 0, 0);
     left: 46%;
     width: 60px;
     border-radius: 10px;
-}
-
-@media screen only and (min-width: 320px),(max-width: 360px){
-
-.new-game{
-
-
-}
-
-.hold{
-
-letter-spacing: 1px;
-}
-
-
-.input-value{
-
-width: 70px;
-height: 40px;
-margin-top: 10px;
-}
-
-.new-game{
-
-font-size: 125%;
-}
-
-}
-
-
-@media only screen and (max-width: 480px){
-
-.dice{
-
-top: 32%;
-left: 45%;
-}
-
 }
 
 @media only screen and (max-width:720px){
