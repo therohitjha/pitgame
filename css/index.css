@@ -120,7 +120,7 @@ height: 500px;
 
 
 
-@media (max-width:360px){
+@media (max-width: 360px){
 
 .container{
 width: 320px;
@@ -161,14 +161,14 @@ height: 400px;
 
 
 .player-current-box{
-   width: 40%;
+    width: 40%;
     padding: 12px;
     background-color: #f303035e;
     margin-top: 175px;
     margin-left: 150px;
     text-align: center;
     font-size: 35px;
-color: aliceblue;
+    color: aliceblue;
     text-transform: uppercase;
     border-radius: 10px;
 }
@@ -231,7 +231,12 @@ margin-left: -1.2%;
 }
 
 
-@media only screen and (max-width: 480px){
+@media (max-width: 480px){
+
+.btn-container{
+font-size: 85%;
+transform: translateX(10px);
+}
 
 
 .new-game{
@@ -315,7 +320,7 @@ font-size: 125%;
 .dice{
 
 top: 32%;
-left: 41%;
+left: 45%;
 }
 
 }
